@@ -1,3 +1,4 @@
+
 var url =  "https://api.digitransit.fi/routing/v1/routers/hsl/bike_rental"
 var map = L.map('map',{
     zoomSnap: 0.1,
@@ -103,5 +104,3 @@ function moveMap(e) {
         map.flyTo([e.latlng.lat, e.latlng.lng])
     }
 }
-
-
